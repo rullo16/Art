@@ -13,7 +13,7 @@ def get_description(url):
 
     comment = soup.find(string=lambda text: isinstance(text,Comment))
     if not comment:
-        return 0
+        return np.NaN
     
     parent_element = comment.find_parent()
     p_tag=parent_element.find('p')
@@ -25,14 +25,19 @@ parser = argparse.ArgumentParser()
 parser.add_argument("file",help="Csv file with links to the descriptions")
 args = parser.parse_args()
 
-train_data = pd.read_csv(args.file, sep='\t', encoding='latin-1')
+if not args.file:
+    data = pd.read_csv('./toy_dataset_label.csv',sep='\t',encoding='latin-1')
+else: data = pd.read_csv(args.file,sep='\t',encoding='latin-1')
 
 
-with tqdm(total=len(train_data)) as pbar:
-    for idx in range(train_data.shape[0]):
+with tqdm(total=len(data)) as pbar:
+    for idx in range(data.shape[0]):
         pbar.set_description(f'Art Piece N°: {idx}')
-        train_data['FILE'][idx] = './images/'+str(idx+1)+'.jpg'
-        train_data['URL'][idx] = get_description(train_data['URL'][idx])
+        data['FILE'][idx] = './images/'+str(idx+1)+'.jpg'
+        data['URL'][idx] = get_description(data['URL'][idx])
         pbar.update()
+data['URL'].replace('', np.NaN, inplace=True)
+data['URL'].replace('None', np.NaN,inplace=True)
+data.dropna(how='any', inplace=True)
 
-train_data.to_csv('described_dataset_label.csv',sep='\t', encoding='latin-1', index=False)
+data.to_csv('described_dataset_label.csv',sep='\t', index=False)
