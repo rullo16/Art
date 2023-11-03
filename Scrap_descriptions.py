@@ -6,12 +6,17 @@ import argparse
 from tqdm import tqdm
 
 def get_description(url):    
-    r = requests.get(url)
-    html_content = r.text
+    try:
+        r = requests.get(url)
+        html_content = r.text
 
-    soup = BeautifulSoup(html_content,'html.parser')
+        soup = BeautifulSoup(html_content,'html.parser')
 
-    comment = soup.find(string=lambda text: isinstance(text,Comment))
+        comment = soup.find(string=lambda text: isinstance(text,Comment))
+    except requests.exceptions.Timeout:
+        print("Connection Timeout")
+        return np.NaN
+
     if not comment:
         return np.NaN
     
