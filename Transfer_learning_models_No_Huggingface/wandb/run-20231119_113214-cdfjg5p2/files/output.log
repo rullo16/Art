@@ -1,0 +1,23 @@
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet101_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet101_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+No such comm: a576b6057e764f22b05e8f46e9d0364d
+No such comm: a1e9dfa49ffe449faf1466e30fc451cd
+No such comm: 15b032e462174e82ab1db71677fd7cb1
+No such comm: fbcb1e68944545b4b2c4d873be3085f7
+No such comm: 557cbbf1a07c4c34a5ee73c06a3a6ffb
+No such comm: 2fd380f1576341eaafd2531ca24c4e09
+No such comm: 6ee34ff41cca4aa082f3e0de9896ed56
+No such comm: f6ce06b68df34d7886884455beaf2f50
+No such comm: d17a9a7d7b584d499173b8ba4710fd59
+No such comm: dde413eafab24f6e9a2ba8f5bf1d44f9
+No such comm: 66b703816b2a43688b24ba2e74e36c0d
+No such comm: 285d40912eec48c0b05c046a16877e4b
+No such comm: 1ceb5d304f584958875e0d3cd6b8c941
+No such comm: 71f1b340d6de4f8f9d129c118d269b50
+No such comm: 6d1963e5c38c4f36ad0cc48a42cf9fa9
+No such comm: 11b8e4dc32c849d0bbd5d37153a8217f
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet101_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet101_Weights.DEFAULT` to get the most up-to-date weights.

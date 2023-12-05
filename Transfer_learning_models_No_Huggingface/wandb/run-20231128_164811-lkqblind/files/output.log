@@ -1,0 +1,54 @@
+No such comm: dd9b4d90866142ac928d36bde5099518
+No such comm: ff95915559ad4838b36d1126a5f808b8
+No such comm: 2b3f547018ec4badbe5b0b60a1494649
+No such comm: 4ace06ed096f42bfa6afb80bfaae2bc3
+No such comm: c8f5ced08cef4936881afe3cb3a21635
+No such comm: fd5adf990dd94f45bb23cff372884bc7
+No such comm: 26f12a370f4b4e7a822310973604ea54
+No such comm: 49f6c1916c83452b83b98a49dfd3c123
+No such comm: 9d2f7ce8cc6f46f4824aff6f74bb9d52
+No such comm: e2d9bb433f96420295adeaa8fc4590ad
+No such comm: b2afe681373c4937a96c76246634bb86
+No such comm: c370fef976fe4173832e97ec9a3c98b9
+No such comm: 203f2257364844189d469aa3d8871dbf
+No such comm: 37763bfb04bf4a21849bc48c189139d0
+No such comm: 89a2d0db9d5c409ebbf9968f5a0c9ecb
+No such comm: 28d29a09506c4214ae0516b5f8f34f5d
+  5%|▍         | 140/3000 [00:02<00:42, 67.18it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 96%|█████████▌| 2887/3000 [00:44<00:01, 63.56it/s]
+mean and std before normalize:
+Mean of the image: tensor([0.4685, 0.3801, 0.3472])
+100%|██████████| 3000/3000 [00:46<00:00, 64.87it/s]
+
+100%|██████████| 3000/3000 [00:01<00:00, 1864.64it/s]
+Feature batch shape: torch.Size([50, 3, 256, 256])
+Labels batch shape: 50
+Label: tensor([[    1,   477,    13,  ...,     0,     0,     2],
+        [    1,  5425,    87,  ...,   126,  3566,     2],
+        [    1,   276,  1238,  ...,     0,     0,     2],
+        ...,
+        [    1,     3,    63,  ...,     0,     0,     2],
+        [    1,     3,    90,  ...,    71,     7,     2],
+        [    1, 12838,  1415,  ...,  8976,    11,     2]])
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).

@@ -1,0 +1,354 @@
+No such comm: 3c265f92e89340e394f4ea9d1e2f78d9
+No such comm: ba3ce213eaa44a708b80c55ac741b986
+No such comm: c7c9d794e48c4d30ad81c63464a03385
+No such comm: 4473e13620604d93ab8a65955a255243
+No such comm: 0515e6f3a86b4487b7db842b1d6d34a6
+No such comm: d15b25b5d0b84ef88544dc4612dc05a0
+No such comm: aac6aebaec4642169935e3ab7e322673
+No such comm: 3944bf8f210243c987c36d62d265f3d6
+No such comm: 44fb29f630b0489280d84e7a05505524
+No such comm: 2805cdc4889642c0895f4acd2944c211
+No such comm: 921c21653c6842f889ae5a926e7d010f
+No such comm: 2a52f287f285443bb9ac9577f7656800
+No such comm: 531fbe26be274ee7b36491cdb4acb8be
+No such comm: 5517344bc5e54c46ab5fba540c1adfa2
+No such comm: a780f0804ad9440d8c8dee29101a9932
+No such comm: c6eb7a1d2a7c46fc891481dcf51e8ed5
+  5%|▍         | 137/3000 [00:01<00:32, 88.42it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 3000/3000 [00:35<00:00, 84.49it/s]
+mean and std before normalize:
+Mean of the image: tensor([0.4685, 0.3801, 0.3472])
+Std of the image: tensor([0.2129, 0.1872, 0.1589])
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Feature batch shape: torch.Size([50, 3, 256, 256])
+Labels batch shape: 50
+Label: tensor([[   3,    4,    5,  ...,   42,   43,   11],
+        [   3,   12,   44,  ...,   71,   75,   76],
+        [   3,   12,   77,  ...,   94,   94,   94],
+        ...,
+        [ 977,  978,  979,  ...,   94,   94,   94],
+        [  33,  987,  988,  ..., 1008, 1009,   11],
+        [  33,  555,   45,  ..., 1028, 1029,  469]])
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+
+Epoch: 1, Batch: 1, Loss: 45.85417938232422:   2%|▏         | 1/48 [00:06<05:20,  6.83s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 2, Loss: 39.88848114013672:   4%|▍         | 2/48 [00:21<08:35, 11.21s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 1, Batch: 4, Loss: 45.43645477294922:   8%|▊         | 4/48 [00:35<06:07,  8.35s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 5, Loss: 42.371055603027344:  10%|█         | 5/48 [00:41<05:31,  7.70s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 1, Batch: 7, Loss: 43.494964599609375:  15%|█▍        | 7/48 [00:55<04:52,  7.14s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 1, Batch: 9, Loss: 42.449012756347656:  19%|█▉        | 9/48 [01:08<04:32,  7.00s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 10, Loss: 38.41523742675781:  21%|██        | 10/48 [01:15<04:23,  6.94s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 1, Batch: 12, Loss: 38.57542037963867:  25%|██▌       | 12/48 [01:29<04:06,  6.86s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 13, Loss: 45.156837463378906:  27%|██▋       | 13/48 [01:35<03:58,  6.81s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 1, Batch: 15, Loss: 43.53874969482422:  31%|███▏      | 15/48 [01:49<03:44,  6.82s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 1, Batch: 17, Loss: 39.7406120300293:  35%|███▌      | 17/48 [02:03<03:31,  6.83s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 18, Loss: 45.269447326660156:  38%|███▊      | 18/48 [02:09<03:22,  6.76s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 19, Loss: 40.731563568115234:  40%|███▉      | 19/48 [02:16<03:16,  6.77s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 20, Loss: 45.82957077026367:  42%|████▏     | 20/48 [02:23<03:11,  6.83s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 1, Batch: 22, Loss: 45.031455993652344:  46%|████▌     | 22/48 [02:37<02:57,  6.84s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 23, Loss: 44.293251037597656:  48%|████▊     | 23/48 [02:43<02:49,  6.77s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 1, Batch: 25, Loss: 42.525970458984375:  52%|█████▏    | 25/48 [02:57<02:35,  6.78s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 1, Batch: 27, Loss: 42.410423278808594:  56%|█████▋    | 27/48 [03:10<02:21,  6.76s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 28, Loss: 39.3631706237793:  58%|█████▊    | 28/48 [03:17<02:14,  6.71s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 29, Loss: 40.40635681152344:  60%|██████    | 29/48 [03:24<02:07,  6.70s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 30, Loss: 43.02626037597656:  62%|██████▎   | 30/48 [03:30<02:00,  6.67s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 31, Loss: 43.739707946777344:  65%|██████▍   | 31/48 [03:37<01:53,  6.67s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 32, Loss: 41.51325607299805:  67%|██████▋   | 32/48 [03:44<01:46,  6.65s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 1, Batch: 34, Loss: 39.9538459777832:  71%|███████   | 34/48 [03:57<01:33,  6.64s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 35, Loss: 38.38093566894531:  73%|███████▎  | 35/48 [04:04<01:26,  6.64s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 36, Loss: 41.91936111450195:  75%|███████▌  | 36/48 [04:10<01:19,  6.66s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 37, Loss: 43.72932434082031:  77%|███████▋  | 37/48 [04:17<01:13,  6.66s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 38, Loss: 37.359012603759766:  79%|███████▉  | 38/48 [04:24<01:06,  6.67s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 39, Loss: 43.302452087402344:  81%|████████▏ | 39/48 [04:30<01:00,  6.69s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 40, Loss: 39.1319694519043:  83%|████████▎ | 40/48 [04:37<00:53,  6.68s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 41, Loss: 42.035301208496094:  85%|████████▌ | 41/48 [04:44<00:46,  6.67s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 42, Loss: 44.838443756103516:  88%|████████▊ | 42/48 [04:50<00:39,  6.64s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 1, Batch: 44, Loss: 45.191444396972656:  92%|█████████▏| 44/48 [05:03<00:26,  6.64s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 45, Loss: 40.50282669067383:  94%|█████████▍| 45/48 [05:10<00:19,  6.63s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 1, Batch: 47, Loss: 38.703304290771484:  98%|█████████▊| 47/48 [05:23<00:06,  6.65s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 1, Batch: 48, Loss: 44.6124382019043: 100%|██████████| 48/48 [05:30<00:00,  6.89s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+  0%|          | 0/48 [00:00<?, ?it/s]
+torch.Size([50, 50, 400000])
+
+
+Epoch: 2, Batch: 2, Loss: 45.36225509643555:   4%|▍         | 2/48 [00:13<05:00,  6.53s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 3, Loss: 38.437679290771484:   6%|▋         | 3/48 [00:19<04:55,  6.57s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 2, Batch: 5, Loss: 43.18800354003906:  10%|█         | 5/48 [00:33<04:47,  6.68s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 6, Loss: 43.57404708862305:  12%|█▎        | 6/48 [00:39<04:41,  6.70s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 7, Loss: 41.441184997558594:  15%|█▍        | 7/48 [00:46<04:35,  6.73s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 8, Loss: 40.653873443603516:  17%|█▋        | 8/48 [00:53<04:27,  6.68s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 9, Loss: 37.58683395385742:  19%|█▉        | 9/48 [00:59<04:21,  6.69s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 2, Batch: 11, Loss: 40.38003158569336:  23%|██▎       | 11/48 [01:13<04:08,  6.71s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 12, Loss: 39.74978256225586:  25%|██▌       | 12/48 [01:20<04:00,  6.69s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 2, Batch: 14, Loss: 40.639896392822266:  29%|██▉       | 14/48 [01:33<03:50,  6.77s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 15, Loss: 38.9515266418457:  31%|███▏      | 15/48 [01:40<03:42,  6.75s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 16, Loss: 43.83295440673828:  33%|███▎      | 16/48 [01:47<03:35,  6.73s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 17, Loss: 40.45445251464844:  35%|███▌      | 17/48 [01:53<03:28,  6.72s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 2, Batch: 19, Loss: 43.705448150634766:  40%|███▉      | 19/48 [02:07<03:13,  6.68s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 20, Loss: 41.722808837890625:  42%|████▏     | 20/48 [02:13<03:06,  6.66s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 21, Loss: 41.288909912109375:  44%|████▍     | 21/48 [02:20<02:59,  6.65s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 2, Batch: 23, Loss: 42.55062484741211:  48%|████▊     | 23/48 [02:33<02:46,  6.68s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 24, Loss: 44.99421691894531:  50%|█████     | 24/48 [02:40<02:40,  6.69s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 25, Loss: 43.4896125793457:  52%|█████▏    | 25/48 [02:47<02:33,  6.68s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 26, Loss: 37.788570404052734:  54%|█████▍    | 26/48 [02:53<02:26,  6.66s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 27, Loss: 39.378692626953125:  56%|█████▋    | 27/48 [03:00<02:19,  6.67s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 28, Loss: 36.90278244018555:  58%|█████▊    | 28/48 [03:06<02:12,  6.64s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 29, Loss: 45.99454116821289:  60%|██████    | 29/48 [03:13<02:06,  6.65s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 30, Loss: 47.018157958984375:  62%|██████▎   | 30/48 [03:20<01:59,  6.65s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 31, Loss: 39.33128356933594:  65%|██████▍   | 31/48 [03:26<01:52,  6.62s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 32, Loss: 43.623680114746094:  67%|██████▋   | 32/48 [03:33<01:47,  6.71s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 33, Loss: 44.41685485839844:  69%|██████▉   | 33/48 [03:40<01:41,  6.75s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 2, Batch: 35, Loss: 41.255706787109375:  73%|███████▎  | 35/48 [03:54<01:27,  6.74s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 36, Loss: 43.24020004272461:  75%|███████▌  | 36/48 [04:00<01:20,  6.71s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 2, Batch: 38, Loss: 44.0484504699707:  79%|███████▉  | 38/48 [04:13<01:06,  6.68s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 39, Loss: 44.4732551574707:  81%|████████▏ | 39/48 [04:20<01:00,  6.70s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 2, Batch: 41, Loss: 40.51203918457031:  85%|████████▌ | 41/48 [04:34<00:47,  6.72s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 42, Loss: 42.956138610839844:  88%|████████▊ | 42/48 [04:40<00:40,  6.72s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 2, Batch: 44, Loss: 44.90546798706055:  92%|█████████▏| 44/48 [04:54<00:26,  6.73s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 45, Loss: 39.96541213989258:  94%|█████████▍| 45/48 [05:00<00:20,  6.69s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+torch.Size([50, 50, 400000])
+
+
+Epoch: 2, Batch: 47, Loss: 38.23344421386719:  98%|█████████▊| 47/48 [05:14<00:06,  6.63s/it]
+torch.Size([50, 50, 400000])
+
+Epoch: 2, Batch: 48, Loss: 39.883827209472656: 100%|██████████| 48/48 [05:20<00:00,  6.68s/it]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+Batch: 0, Loss: 38.56278610229492
+Batch: 1, Loss: 45.497840881347656
+Batch: 2, Loss: 40.72596740722656
+Batch: 3, Loss: 40.86653137207031
+Batch: 4, Loss: 42.757118225097656
+Batch: 5, Loss: 40.57929611206055
+Batch: 6, Loss: 39.19337463378906
+Batch: 7, Loss: 40.91615676879883
+Batch: 8, Loss: 41.1124267578125
+Batch: 9, Loss: 43.593421936035156
+Batch: 10, Loss: 40.1806755065918
+Batch: 11, Loss: 38.79510498046875

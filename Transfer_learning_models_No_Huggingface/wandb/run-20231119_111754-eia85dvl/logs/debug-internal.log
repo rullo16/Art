@@ -1,0 +1,397 @@
+2023-11-19 11:17:59,574 INFO    StreamThr :4648 [internal.py:wandb_internal():86] W&B internal server running at pid: 4648, started at: 2023-11-19 11:17:59.574895
+2023-11-19 11:17:59,575 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status
+2023-11-19 11:17:59,576 INFO    WriterThread:4648 [datastore.py:open_for_write():85] open: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\run-eia85dvl.wandb
+2023-11-19 11:17:59,577 DEBUG   SenderThread:4648 [sender.py:send():379] send: header
+2023-11-19 11:17:59,577 DEBUG   SenderThread:4648 [sender.py:send():379] send: run
+2023-11-19 11:18:00,017 INFO    SenderThread:4648 [dir_watcher.py:__init__():211] watching files in: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files
+2023-11-19 11:18:00,017 INFO    SenderThread:4648 [sender.py:_start_run_threads():1121] run started: eia85dvl with start time 1700389078.691467
+2023-11-19 11:18:00,020 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: summary_record
+2023-11-19 11:18:00,021 INFO    SenderThread:4648 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-11-19 11:18:00,032 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: check_version
+2023-11-19 11:18:00,033 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: check_version
+2023-11-19 11:18:00,163 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: run_start
+2023-11-19 11:18:00,169 DEBUG   HandlerThread:4648 [system_info.py:__init__():31] System info init
+2023-11-19 11:18:00,170 DEBUG   HandlerThread:4648 [system_info.py:__init__():46] System info init done
+2023-11-19 11:18:00,170 INFO    HandlerThread:4648 [system_monitor.py:start():181] Starting system monitor
+2023-11-19 11:18:00,170 INFO    SystemMonitor:4648 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-11-19 11:18:00,170 INFO    HandlerThread:4648 [system_monitor.py:probe():201] Collecting system info
+2023-11-19 11:18:00,174 INFO    SystemMonitor:4648 [interfaces.py:start():190] Started cpu monitoring
+2023-11-19 11:18:00,174 DEBUG   HandlerThread:4648 [system_info.py:probe():195] Probing system
+2023-11-19 11:18:00,174 INFO    SystemMonitor:4648 [interfaces.py:start():190] Started disk monitoring
+2023-11-19 11:18:00,174 INFO    SystemMonitor:4648 [interfaces.py:start():190] Started memory monitoring
+2023-11-19 11:18:00,180 INFO    SystemMonitor:4648 [interfaces.py:start():190] Started network monitoring
+2023-11-19 11:18:00,181 DEBUG   HandlerThread:4648 [system_info.py:_probe_git():180] Probing git
+2023-11-19 11:18:00,235 DEBUG   HandlerThread:4648 [system_info.py:_probe_git():188] Probing git done
+2023-11-19 11:18:00,235 DEBUG   HandlerThread:4648 [system_info.py:probe():240] Probing system done
+2023-11-19 11:18:00,235 DEBUG   HandlerThread:4648 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.12', 'heartbeatAt': '2023-11-19T10:18:00.174951', 'startedAt': '2023-11-19T10:17:54.446592', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/rullo16/Art.git', 'commit': '000e592b7198f00cecfa9de18943b0f27a985175'}, 'email': 'rullo16', 'root': 'C:/Users/Fede/Desktop/Art', 'host': 'DESKTOP-AH01H0C', 'username': 'Fede', 'executable': 'c:\\Users\\Fede\\anaconda3\\envs\\tf\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3801.0, 'min': 0.0, 'max': 3801.0}, 'cpu_freq_per_core': [{'current': 3801.0, 'min': 0.0, 'max': 3801.0}], 'disk': {'total': 930.8769226074219, 'used': 810.8411560058594}, 'memory': {'total': 15.909221649169922}}
+2023-11-19 11:18:00,235 INFO    HandlerThread:4648 [system_monitor.py:probe():211] Finished collecting system info
+2023-11-19 11:18:00,235 INFO    HandlerThread:4648 [system_monitor.py:probe():214] Publishing system info
+2023-11-19 11:18:00,235 DEBUG   HandlerThread:4648 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-11-19 11:18:00,237 DEBUG   HandlerThread:4648 [system_info.py:_save_pip():67] Saving pip packages done
+2023-11-19 11:18:00,237 DEBUG   HandlerThread:4648 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-11-19 11:18:00,239 ERROR   HandlerThread:4648 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\subprocess.py", line 345, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\subprocess.py", line 1456, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2023-11-19 11:18:00,239 DEBUG   HandlerThread:4648 [system_info.py:_save_conda():86] Saving conda packages done
+2023-11-19 11:18:00,240 INFO    HandlerThread:4648 [system_monitor.py:probe():216] Finished publishing system info
+2023-11-19 11:18:00,240 DEBUG   SenderThread:4648 [sender.py:send():379] send: files
+2023-11-19 11:18:00,240 INFO    SenderThread:4648 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-11-19 11:18:00,251 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: stop_status
+2023-11-19 11:18:00,251 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: stop_status
+2023-11-19 11:18:00,562 DEBUG   SenderThread:4648 [sender.py:send():379] send: telemetry
+2023-11-19 11:18:00,870 INFO    wandb-upload_0:4648 [upload_job.py:push():131] Uploaded file C:\Users\Fede\AppData\Local\Temp\tmpcnr7ylckwandb\in0ohcpv-wandb-metadata.json
+2023-11-19 11:18:01,025 INFO    Thread-31 :4648 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\wandb-metadata.json
+2023-11-19 11:18:01,026 INFO    Thread-31 :4648 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\requirements.txt
+2023-11-19 11:18:01,026 INFO    Thread-31 :4648 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\wandb-summary.json
+2023-11-19 11:18:01,026 INFO    Thread-31 :4648 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\conda-environment.yaml
+2023-11-19 11:18:02,025 INFO    Thread-31 :4648 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\output.log
+2023-11-19 11:18:04,027 INFO    Thread-31 :4648 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\output.log
+2023-11-19 11:18:05,257 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:18:06,047 INFO    Thread-31 :4648 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\output.log
+2023-11-19 11:18:10,291 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:18:15,257 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: stop_status
+2023-11-19 11:18:15,258 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: stop_status
+2023-11-19 11:18:15,497 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:18:20,516 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:18:25,567 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:18:30,273 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: stop_status
+2023-11-19 11:18:30,273 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: stop_status
+2023-11-19 11:18:35,304 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:18:40,347 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:18:50,462 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:18:55,340 WARNING FileStreamThread:4648 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')). func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x0000026FFFF8BF10>>, timeout=60.0), args: ('https://api.wandb.ai/files/fede-/Art/eia85dvl/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-11-19 11:18:55,525 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:19:00,185 DEBUG   SystemMonitor:4648 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-11-19 11:19:00,555 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:19:03,549 INFO    SenderThread:4648 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\urllib3\connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\urllib3\connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\urllib3\connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\urllib3\connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\urllib3\connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x0000026F801F2320>, 'Connection to api.wandb.ai timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\urllib3\connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000026F801F2320>, 'Connection to api.wandb.ai timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\wandb\sdk\internal\internal_api.py", line 323, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\wandb\sdk\lib\gql_request.py", line 55, in execute
+    request = self.session.post(self.url, **post_args)
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\requests\adapters.py", line 507, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000026F801F2320>, 'Connection to api.wandb.ai timed out. (connect timeout=10)'))
+2023-11-19 11:19:05,604 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:19:10,653 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:19:15,684 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:19:18,409 WARNING FileStreamThread:4648 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/fede-/Art/eia85dvl/file_stream (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000026F801F1A50>, 'Connection to api.wandb.ai timed out. (connect timeout=60.0)')). func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x0000026FFFF8BF10>>, timeout=60.0), args: ('https://api.wandb.ai/files/fede-/Art/eia85dvl/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2023-11-19 11:19:20,709 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:19:25,727 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:19:26,388 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:19:26,572 DEBUG   SenderThread:4648 [sender.py:send():379] send: stats
+2023-11-19 11:19:26,691 INFO    Thread-31 :4648 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\config.yaml
+2023-11-19 11:19:30,199 DEBUG   SenderThread:4648 [sender.py:send():379] send: stats
+2023-11-19 11:19:30,760 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:19:32,212 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:19:35,813 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:19:37,247 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:19:40,844 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:19:42,279 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:19:45,883 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:19:47,325 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:19:50,910 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:19:52,353 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:19:55,953 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:19:57,373 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:20:00,204 DEBUG   SenderThread:4648 [sender.py:send():379] send: stats
+2023-11-19 11:20:00,967 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:20:03,235 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:20:06,002 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:20:08,272 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:20:11,060 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:20:13,287 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:20:16,090 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:20:18,334 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:20:21,135 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:20:23,373 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:20:26,169 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:20:28,399 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:20:30,206 DEBUG   SenderThread:4648 [sender.py:send():379] send: stats
+2023-11-19 11:20:31,201 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:20:34,234 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:20:36,224 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:20:39,261 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:20:41,265 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:20:44,272 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:20:46,287 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:20:49,307 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:20:51,317 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:20:54,328 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:20:56,333 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:20:59,355 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:21:00,218 DEBUG   SenderThread:4648 [sender.py:send():379] send: stats
+2023-11-19 11:21:01,373 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:21:01,373 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:21:05,242 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:21:06,423 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:21:10,281 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:21:11,452 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:21:15,319 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:21:16,494 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:21:20,351 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:21:21,522 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:21:25,402 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:21:26,578 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:21:30,218 DEBUG   SenderThread:4648 [sender.py:send():379] send: stats
+2023-11-19 11:21:31,222 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:21:31,601 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:21:36,242 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:21:36,634 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:21:41,269 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:21:41,648 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:21:46,307 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:21:46,677 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:21:51,335 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:21:51,705 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:21:56,376 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:21:56,736 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:22:00,219 DEBUG   SenderThread:4648 [sender.py:send():379] send: stats
+2023-11-19 11:22:01,772 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:22:02,238 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:22:06,823 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:22:07,277 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:22:11,849 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:22:12,296 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:22:16,885 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:22:17,324 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:22:21,914 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:22:22,346 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:22:26,950 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:22:27,365 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:22:30,224 DEBUG   SenderThread:4648 [sender.py:send():379] send: stats
+2023-11-19 11:22:31,971 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:22:33,243 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:22:37,018 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:22:38,274 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:22:42,055 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:22:43,308 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:22:47,085 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:22:48,337 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:22:52,129 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:22:53,380 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:22:57,171 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:22:58,405 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:23:00,226 DEBUG   SenderThread:4648 [sender.py:send():379] send: stats
+2023-11-19 11:23:02,240 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:23:04,260 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:23:07,287 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:23:09,301 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:23:12,329 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:23:14,344 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:23:17,354 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:23:19,367 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:23:22,392 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:23:24,404 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:23:27,417 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:23:29,439 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:23:30,236 DEBUG   SenderThread:4648 [sender.py:send():379] send: stats
+2023-11-19 11:23:32,471 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:23:35,259 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:23:37,525 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:23:40,294 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:23:42,572 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:23:45,346 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:23:47,604 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:23:50,381 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:23:52,654 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:23:55,414 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:23:57,678 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:24:00,237 DEBUG   SenderThread:4648 [sender.py:send():379] send: stats
+2023-11-19 11:24:01,256 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:24:02,721 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:24:06,294 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:24:07,759 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:24:11,331 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:24:12,797 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: keepalive
+2023-11-19 11:24:16,370 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:24:16,583 DEBUG   SenderThread:4648 [sender.py:send():379] send: telemetry
+2023-11-19 11:24:16,583 DEBUG   SenderThread:4648 [sender.py:send():379] send: exit
+2023-11-19 11:24:16,583 INFO    SenderThread:4648 [sender.py:send_exit():584] handling exit code: 0
+2023-11-19 11:24:16,583 INFO    SenderThread:4648 [sender.py:send_exit():586] handling runtime: 376
+2023-11-19 11:24:16,583 INFO    SenderThread:4648 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-11-19 11:24:16,583 INFO    SenderThread:4648 [sender.py:send_exit():592] send defer
+2023-11-19 11:24:16,583 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: defer
+2023-11-19 11:24:16,583 INFO    HandlerThread:4648 [handler.py:handle_request_defer():170] handle defer: 0
+2023-11-19 11:24:16,583 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: defer
+2023-11-19 11:24:16,583 INFO    SenderThread:4648 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-11-19 11:24:16,583 INFO    SenderThread:4648 [sender.py:transition_state():612] send defer: 1
+2023-11-19 11:24:16,583 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: defer
+2023-11-19 11:24:16,583 INFO    HandlerThread:4648 [handler.py:handle_request_defer():170] handle defer: 1
+2023-11-19 11:24:16,583 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: defer
+2023-11-19 11:24:16,583 INFO    SenderThread:4648 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-11-19 11:24:16,583 INFO    SenderThread:4648 [sender.py:transition_state():612] send defer: 2
+2023-11-19 11:24:16,583 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: defer
+2023-11-19 11:24:16,583 INFO    HandlerThread:4648 [handler.py:handle_request_defer():170] handle defer: 2
+2023-11-19 11:24:16,583 INFO    HandlerThread:4648 [system_monitor.py:finish():190] Stopping system monitor
+2023-11-19 11:24:16,583 DEBUG   SystemMonitor:4648 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-11-19 11:24:16,587 INFO    HandlerThread:4648 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-19 11:24:16,587 DEBUG   SystemMonitor:4648 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-11-19 11:24:16,587 INFO    HandlerThread:4648 [interfaces.py:finish():202] Joined disk monitor
+2023-11-19 11:24:16,587 INFO    HandlerThread:4648 [interfaces.py:finish():202] Joined memory monitor
+2023-11-19 11:24:16,587 INFO    HandlerThread:4648 [interfaces.py:finish():202] Joined network monitor
+2023-11-19 11:24:16,588 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: defer
+2023-11-19 11:24:16,588 INFO    SenderThread:4648 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-11-19 11:24:16,588 INFO    SenderThread:4648 [sender.py:transition_state():612] send defer: 3
+2023-11-19 11:24:16,588 DEBUG   SenderThread:4648 [sender.py:send():379] send: stats
+2023-11-19 11:24:16,588 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: defer
+2023-11-19 11:24:16,588 INFO    HandlerThread:4648 [handler.py:handle_request_defer():170] handle defer: 3
+2023-11-19 11:24:16,588 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: defer
+2023-11-19 11:24:16,588 INFO    SenderThread:4648 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-11-19 11:24:16,589 INFO    SenderThread:4648 [sender.py:transition_state():612] send defer: 4
+2023-11-19 11:24:16,589 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: defer
+2023-11-19 11:24:16,589 INFO    HandlerThread:4648 [handler.py:handle_request_defer():170] handle defer: 4
+2023-11-19 11:24:16,589 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: defer
+2023-11-19 11:24:16,589 INFO    SenderThread:4648 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-11-19 11:24:16,589 INFO    SenderThread:4648 [sender.py:transition_state():612] send defer: 5
+2023-11-19 11:24:16,589 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: defer
+2023-11-19 11:24:16,589 INFO    HandlerThread:4648 [handler.py:handle_request_defer():170] handle defer: 5
+2023-11-19 11:24:16,589 DEBUG   SenderThread:4648 [sender.py:send():379] send: summary
+2023-11-19 11:24:16,590 INFO    SenderThread:4648 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-11-19 11:24:16,590 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: defer
+2023-11-19 11:24:16,590 INFO    SenderThread:4648 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-11-19 11:24:16,590 INFO    SenderThread:4648 [sender.py:transition_state():612] send defer: 6
+2023-11-19 11:24:16,590 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: defer
+2023-11-19 11:24:16,590 INFO    HandlerThread:4648 [handler.py:handle_request_defer():170] handle defer: 6
+2023-11-19 11:24:16,590 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: defer
+2023-11-19 11:24:16,590 INFO    SenderThread:4648 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-11-19 11:24:16,593 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: status_report
+2023-11-19 11:24:16,824 INFO    Thread-31 :4648 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\wandb-summary.json
+2023-11-19 11:24:16,829 INFO    SenderThread:4648 [sender.py:transition_state():612] send defer: 7
+2023-11-19 11:24:16,829 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: defer
+2023-11-19 11:24:16,829 INFO    HandlerThread:4648 [handler.py:handle_request_defer():170] handle defer: 7
+2023-11-19 11:24:16,829 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: defer
+2023-11-19 11:24:16,829 INFO    SenderThread:4648 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-11-19 11:24:17,358 INFO    SenderThread:4648 [sender.py:transition_state():612] send defer: 8
+2023-11-19 11:24:17,358 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: defer
+2023-11-19 11:24:17,358 INFO    HandlerThread:4648 [handler.py:handle_request_defer():170] handle defer: 8
+2023-11-19 11:24:17,358 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: defer
+2023-11-19 11:24:17,358 INFO    SenderThread:4648 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-11-19 11:24:17,358 INFO    SenderThread:4648 [job_builder.py:build():281] Attempting to build job artifact
+2023-11-19 11:24:17,358 INFO    SenderThread:4648 [job_builder.py:build():297] run is notebook based run
+2023-11-19 11:24:17,358 INFO    SenderThread:4648 [job_builder.py:_get_source_type():400] is repo sourced job
+2023-11-19 11:24:17,358 INFO    SenderThread:4648 [sender.py:transition_state():612] send defer: 9
+2023-11-19 11:24:17,358 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: defer
+2023-11-19 11:24:17,358 INFO    HandlerThread:4648 [handler.py:handle_request_defer():170] handle defer: 9
+2023-11-19 11:24:17,358 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: defer
+2023-11-19 11:24:17,358 INFO    SenderThread:4648 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-11-19 11:24:17,358 INFO    SenderThread:4648 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-19 11:24:17,587 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: poll_exit
+2023-11-19 11:24:17,825 INFO    SenderThread:4648 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\output.log
+2023-11-19 11:24:17,825 INFO    SenderThread:4648 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\config.yaml
+2023-11-19 11:24:17,825 INFO    SenderThread:4648 [dir_watcher.py:finish():388] scan: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files
+2023-11-19 11:24:17,825 INFO    SenderThread:4648 [dir_watcher.py:finish():402] scan save: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\conda-environment.yaml conda-environment.yaml
+2023-11-19 11:24:17,825 INFO    SenderThread:4648 [dir_watcher.py:finish():402] scan save: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\config.yaml config.yaml
+2023-11-19 11:24:17,825 INFO    SenderThread:4648 [dir_watcher.py:finish():402] scan save: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\output.log output.log
+2023-11-19 11:24:17,829 INFO    SenderThread:4648 [dir_watcher.py:finish():402] scan save: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\requirements.txt requirements.txt
+2023-11-19 11:24:17,829 INFO    SenderThread:4648 [dir_watcher.py:finish():402] scan save: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\wandb-metadata.json wandb-metadata.json
+2023-11-19 11:24:17,829 INFO    SenderThread:4648 [dir_watcher.py:finish():402] scan save: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\wandb-summary.json wandb-summary.json
+2023-11-19 11:24:17,829 INFO    SenderThread:4648 [sender.py:transition_state():612] send defer: 10
+2023-11-19 11:24:17,829 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: poll_exit
+2023-11-19 11:24:17,833 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: defer
+2023-11-19 11:24:17,833 INFO    HandlerThread:4648 [handler.py:handle_request_defer():170] handle defer: 10
+2023-11-19 11:24:17,833 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: defer
+2023-11-19 11:24:17,833 INFO    SenderThread:4648 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-11-19 11:24:17,833 INFO    SenderThread:4648 [file_pusher.py:finish():159] shutting down file pusher
+2023-11-19 11:24:18,279 INFO    wandb-upload_1:4648 [upload_job.py:push():131] Uploaded file c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\output.log
+2023-11-19 11:24:18,329 INFO    wandb-upload_0:4648 [upload_job.py:push():131] Uploaded file c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\config.yaml
+2023-11-19 11:24:18,354 INFO    wandb-upload_3:4648 [upload_job.py:push():131] Uploaded file c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\wandb-summary.json
+2023-11-19 11:24:18,362 INFO    wandb-upload_2:4648 [upload_job.py:push():131] Uploaded file c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\files\requirements.txt
+2023-11-19 11:24:18,568 INFO    Thread-30 (_thread_body):4648 [sender.py:transition_state():612] send defer: 11
+2023-11-19 11:24:18,568 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: defer
+2023-11-19 11:24:18,568 INFO    HandlerThread:4648 [handler.py:handle_request_defer():170] handle defer: 11
+2023-11-19 11:24:18,568 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: defer
+2023-11-19 11:24:18,568 INFO    SenderThread:4648 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-11-19 11:24:18,568 INFO    SenderThread:4648 [file_pusher.py:join():164] waiting for file pusher
+2023-11-19 11:24:18,568 INFO    SenderThread:4648 [sender.py:transition_state():612] send defer: 12
+2023-11-19 11:24:18,569 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: defer
+2023-11-19 11:24:18,569 INFO    HandlerThread:4648 [handler.py:handle_request_defer():170] handle defer: 12
+2023-11-19 11:24:18,569 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: defer
+2023-11-19 11:24:18,569 INFO    SenderThread:4648 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-11-19 11:24:18,569 INFO    SenderThread:4648 [file_stream.py:finish():593] file stream finish called
+2023-11-19 11:24:18,598 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: poll_exit
+2023-11-19 11:24:19,173 INFO    SenderThread:4648 [file_stream.py:finish():597] file stream finish is done
+2023-11-19 11:24:19,173 INFO    SenderThread:4648 [sender.py:transition_state():612] send defer: 13
+2023-11-19 11:24:19,173 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: poll_exit
+2023-11-19 11:24:19,173 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: defer
+2023-11-19 11:24:19,174 INFO    HandlerThread:4648 [handler.py:handle_request_defer():170] handle defer: 13
+2023-11-19 11:24:19,174 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: defer
+2023-11-19 11:24:19,174 INFO    SenderThread:4648 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-11-19 11:24:19,174 INFO    SenderThread:4648 [sender.py:transition_state():612] send defer: 14
+2023-11-19 11:24:19,174 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: defer
+2023-11-19 11:24:19,174 DEBUG   SenderThread:4648 [sender.py:send():379] send: final
+2023-11-19 11:24:19,174 INFO    HandlerThread:4648 [handler.py:handle_request_defer():170] handle defer: 14
+2023-11-19 11:24:19,174 DEBUG   SenderThread:4648 [sender.py:send():379] send: footer
+2023-11-19 11:24:19,175 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: defer
+2023-11-19 11:24:19,175 INFO    SenderThread:4648 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-11-19 11:24:19,175 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: poll_exit
+2023-11-19 11:24:19,175 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: server_info
+2023-11-19 11:24:19,176 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: poll_exit
+2023-11-19 11:24:19,176 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: get_summary
+2023-11-19 11:24:19,176 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: server_info
+2023-11-19 11:24:19,176 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: sampled_history
+2023-11-19 11:24:19,177 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: job_info
+2023-11-19 11:24:19,332 DEBUG   SenderThread:4648 [sender.py:send_request():406] send_request: job_info
+2023-11-19 11:24:19,333 DEBUG   HandlerThread:4648 [handler.py:handle_request():144] handle_request: shutdown
+2023-11-19 11:24:19,333 INFO    HandlerThread:4648 [handler.py:finish():861] shutting down handler
+2023-11-19 11:24:20,179 INFO    WriterThread:4648 [datastore.py:close():294] close: c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231119_111754-eia85dvl\run-eia85dvl.wandb
+2023-11-19 11:24:20,347 INFO    SenderThread:4648 [sender.py:finish():1552] shutting down sender
+2023-11-19 11:24:20,347 INFO    SenderThread:4648 [file_pusher.py:finish():159] shutting down file pusher
+2023-11-19 11:24:20,347 INFO    SenderThread:4648 [file_pusher.py:join():164] waiting for file pusher

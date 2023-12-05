@@ -1,0 +1,99 @@
+2023-11-28 16:48:11,639 INFO    MainThread:24408 [wandb_setup.py:_flush():76] Current SDK version is 0.15.9
+2023-11-28 16:48:11,639 INFO    MainThread:24408 [wandb_setup.py:_flush():76] Configure stats pid to 24408
+2023-11-28 16:48:11,639 INFO    MainThread:24408 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Fede\.config\wandb\settings
+2023-11-28 16:48:11,639 INFO    MainThread:24408 [wandb_setup.py:_flush():76] Loading settings from c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\settings
+2023-11-28 16:48:11,639 INFO    MainThread:24408 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-11-28 16:48:11,639 INFO    MainThread:24408 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-11-28 16:48:11,639 INFO    MainThread:24408 [wandb_init.py:_log_setup():524] Logging user logs to c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231128_164811-lkqblind\logs\debug.log
+2023-11-28 16:48:11,640 INFO    MainThread:24408 [wandb_init.py:_log_setup():525] Logging internal logs to c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231128_164811-lkqblind\logs\debug-internal.log
+2023-11-28 16:48:11,640 INFO    MainThread:24408 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000276AE162CB0>
+2023-11-28 16:48:11,640 INFO    MainThread:24408 [wandb_init.py:init():564] calling init triggers
+2023-11-28 16:48:11,640 INFO    MainThread:24408 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-11-28 16:48:11,640 INFO    MainThread:24408 [wandb_init.py:init():613] starting backend
+2023-11-28 16:48:11,640 INFO    MainThread:24408 [wandb_init.py:init():617] setting up manager
+2023-11-28 16:48:11,644 INFO    MainThread:24408 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-11-28 16:48:11,648 INFO    MainThread:24408 [wandb_init.py:init():623] backend started and connected
+2023-11-28 16:48:11,662 INFO    MainThread:24408 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-11-28 16:48:11,663 INFO    MainThread:24408 [wandb_run.py:_label_probe_notebook():1244] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-11-28 16:48:11,663 INFO    MainThread:24408 [wandb_init.py:init():714] updated telemetry
+2023-11-28 16:48:11,716 INFO    MainThread:24408 [wandb_init.py:init():747] communicating run to backend with 60.0 second timeout
+2023-11-28 16:48:15,649 INFO    MainThread:24408 [wandb_run.py:_on_init():2180] communicating current version
+2023-11-28 16:48:15,740 INFO    MainThread:24408 [wandb_run.py:_on_init():2189] got version response upgrade_message: "wandb version 0.16.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-11-28 16:48:15,740 INFO    MainThread:24408 [wandb_init.py:init():798] starting run threads in backend
+2023-11-28 16:48:15,890 INFO    MainThread:24408 [wandb_run.py:_console_start():2159] atexit reg
+2023-11-28 16:48:15,890 INFO    MainThread:24408 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-11-28 16:48:15,890 INFO    MainThread:24408 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-11-28 16:48:15,890 INFO    MainThread:24408 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-11-28 16:48:15,891 INFO    MainThread:24408 [wandb_init.py:init():839] run started, returning control to user process
+2023-11-28 16:48:15,891 INFO    MainThread:24408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-28 16:48:15,891 INFO    MainThread:24408 [wandb_init.py:_pause_backend():435] pausing backend
+2023-11-28 16:48:15,981 INFO    MainThread:24408 [wandb_init.py:_resume_backend():440] resuming backend
+2023-11-28 16:48:16,362 INFO    MainThread:24408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-28 16:48:16,362 INFO    MainThread:24408 [wandb_init.py:_pause_backend():435] pausing backend
+2023-11-28 16:48:16,383 INFO    MainThread:24408 [wandb_init.py:_resume_backend():440] resuming backend
+2023-11-28 16:49:02,639 INFO    MainThread:24408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-28 16:49:02,640 INFO    MainThread:24408 [wandb_init.py:_pause_backend():435] pausing backend
+2023-11-28 16:49:02,665 INFO    MainThread:24408 [wandb_init.py:_resume_backend():440] resuming backend
+2023-11-28 16:49:02,693 INFO    MainThread:24408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-28 16:49:02,693 INFO    MainThread:24408 [wandb_init.py:_pause_backend():435] pausing backend
+2023-11-28 16:49:02,746 INFO    MainThread:24408 [wandb_init.py:_resume_backend():440] resuming backend
+2023-11-28 16:49:02,752 INFO    MainThread:24408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-28 16:49:02,753 INFO    MainThread:24408 [wandb_init.py:_pause_backend():435] pausing backend
+2023-11-28 16:49:02,853 INFO    MainThread:24408 [wandb_init.py:_resume_backend():440] resuming backend
+2023-11-28 16:49:02,855 INFO    MainThread:24408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-28 16:49:02,855 INFO    MainThread:24408 [wandb_init.py:_pause_backend():435] pausing backend
+2023-11-28 16:49:02,923 INFO    MainThread:24408 [wandb_init.py:_resume_backend():440] resuming backend
+2023-11-28 16:49:04,537 INFO    MainThread:24408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-28 16:49:04,538 INFO    MainThread:24408 [wandb_init.py:_pause_backend():435] pausing backend
+2023-11-28 16:49:04,569 INFO    MainThread:24408 [wandb_init.py:_resume_backend():440] resuming backend
+2023-11-28 16:49:04,572 INFO    MainThread:24408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-28 16:49:04,573 INFO    MainThread:24408 [wandb_init.py:_pause_backend():435] pausing backend
+2023-11-28 16:49:04,613 INFO    MainThread:24408 [wandb_init.py:_resume_backend():440] resuming backend
+2023-11-28 16:49:05,777 INFO    MainThread:24408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-28 16:49:05,777 INFO    MainThread:24408 [wandb_init.py:_pause_backend():435] pausing backend
+2023-11-28 16:49:05,818 INFO    MainThread:24408 [wandb_init.py:_resume_backend():440] resuming backend
+2023-11-28 16:49:05,820 INFO    MainThread:24408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-28 16:49:05,820 INFO    MainThread:24408 [wandb_init.py:_pause_backend():435] pausing backend
+2023-11-28 16:49:05,918 INFO    MainThread:24408 [wandb_init.py:_resume_backend():440] resuming backend
+2023-11-28 16:49:05,920 INFO    MainThread:24408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-28 16:49:05,921 INFO    MainThread:24408 [wandb_init.py:_pause_backend():435] pausing backend
+2023-11-28 16:49:05,987 INFO    MainThread:24408 [wandb_init.py:_resume_backend():440] resuming backend
+2023-11-28 16:49:05,989 INFO    MainThread:24408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-28 16:49:05,989 INFO    MainThread:24408 [wandb_init.py:_pause_backend():435] pausing backend
+2023-11-28 16:49:06,071 INFO    MainThread:24408 [wandb_init.py:_resume_backend():440] resuming backend
+2023-11-28 16:49:06,074 INFO    MainThread:24408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-28 16:49:06,074 INFO    MainThread:24408 [wandb_init.py:_pause_backend():435] pausing backend
+2023-11-28 16:49:06,143 INFO    MainThread:24408 [wandb_init.py:_resume_backend():440] resuming backend
+2023-11-28 16:49:06,146 INFO    MainThread:24408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-28 16:49:06,146 INFO    MainThread:24408 [wandb_init.py:_pause_backend():435] pausing backend
+2023-11-28 16:49:06,213 INFO    MainThread:24408 [wandb_init.py:_resume_backend():440] resuming backend
+2023-11-28 16:49:06,216 INFO    MainThread:24408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-28 16:49:06,216 INFO    MainThread:24408 [wandb_init.py:_pause_backend():435] pausing backend
+2023-11-28 16:49:06,249 INFO    MainThread:24408 [wandb_init.py:_resume_backend():440] resuming backend
+2023-11-28 16:49:08,055 INFO    MainThread:24408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-28 16:49:08,055 INFO    MainThread:24408 [wandb_init.py:_pause_backend():435] pausing backend
+2023-11-28 16:49:08,078 INFO    MainThread:24408 [wandb_init.py:_resume_backend():440] resuming backend
+2023-11-28 16:49:08,097 INFO    MainThread:24408 [wandb_setup.py:_flush():76] Current SDK version is 0.15.9
+2023-11-28 16:49:08,098 INFO    MainThread:24408 [wandb_setup.py:_flush():76] Configure stats pid to 24408
+2023-11-28 16:49:08,098 INFO    MainThread:24408 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Fede\.config\wandb\settings
+2023-11-28 16:49:08,098 INFO    MainThread:24408 [wandb_setup.py:_flush():76] Loading settings from c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\settings
+2023-11-28 16:49:08,098 INFO    MainThread:24408 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-11-28 16:49:08,098 INFO    MainThread:24408 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-11-28 16:49:08,098 INFO    MainThread:24408 [wandb_init.py:_log_setup():524] Logging user logs to c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231128_164908-odc8ri0q\logs\debug.log
+2023-11-28 16:49:08,099 INFO    MainThread:24408 [wandb_init.py:_log_setup():525] Logging internal logs to c:\Users\Fede\Desktop\Art\Not_Transfer_learning_models\wandb\run-20231128_164908-odc8ri0q\logs\debug-internal.log
+2023-11-28 16:49:08,099 INFO    MainThread:24408 [wandb_init.py:init():564] calling init triggers
+2023-11-28 16:49:08,099 INFO    MainThread:24408 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'learning_rage': 0.001, 'epochs': 2}
+2023-11-28 16:49:08,099 INFO    MainThread:24408 [wandb_init.py:init():588] re-initializing run, found existing run on stack: lkqblind
+2023-11-28 16:49:08,100 INFO    MainThread:24408 [wandb_run.py:_finish():1894] finishing run fede-/art-test-caption/lkqblind
+2023-11-28 16:49:08,100 INFO    MainThread:24408 [jupyter.py:save_history():445] not saving jupyter history
+2023-11-28 16:49:08,100 INFO    MainThread:24408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-28 16:49:08,100 INFO    MainThread:24408 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2023-11-28 16:49:08,101 INFO    MainThread:24408 [wandb_run.py:_atexit_cleanup():2128] got exitcode: 0
+2023-11-28 16:49:08,101 INFO    MainThread:24408 [wandb_run.py:_restore():2111] restore
+2023-11-28 16:49:08,101 INFO    MainThread:24408 [wandb_run.py:_restore():2117] restore done
+2023-11-28 16:49:14,496 INFO    MainThread:24408 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-11-28 16:49:14,497 INFO    MainThread:24408 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-11-28 16:49:14,500 INFO    MainThread:24408 [wandb_run.py:_footer_sync_info():3440] logging synced files
