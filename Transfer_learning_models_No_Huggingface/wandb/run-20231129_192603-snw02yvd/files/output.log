@@ -1,0 +1,161 @@
+No such comm: 05026ced5cff43cdb63e66907202b0b3
+No such comm: 988976a1cf5e423dabbdf2f88337cb6d
+No such comm: 1c170c027f12443eb433081ed1d9f38f
+No such comm: 43d9f4271e3b43138ae55edb5087a564
+No such comm: 631e32bf869c4f87b8dcce08aa9db856
+No such comm: 509b00e7c30843c38ab88581fc9fb66f
+No such comm: 9ad57ab86d4c4bd49ac22f0e08f7fe96
+No such comm: 4fa66199da494f5a92082317c06cba26
+No such comm: 8327b08c822349b393683c7bacb56fa2
+No such comm: ce6342ac7dfd4747b96efd43b4e957fc
+No such comm: 7677cbd8ff6348f184cb0b643c5f8106
+No such comm: dc6a68da4df149d69c7702918130bd65
+No such comm: 17ef9e12145e40f59c198a6da80c0b87
+No such comm: 624fa0c2f38e4438bcf2710b0d9f683c
+No such comm: 5cebcdae853e472580701299c36c918b
+No such comm: adbb2fcf6f9b453192a03130f9f9f577
+  2%|▏         | 74/3000 [00:01<00:48, 60.68it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 3000/3000 [00:35<00:00, 83.83it/s]
+100%|██████████| 3000/3000 [00:01<00:00, 2479.34it/s]
+mean and std before normalize:
+Mean of the image: tensor([0.4685, 0.3801, 0.3472])
+Std of the image: tensor([0.2129, 0.1872, 0.1589])
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Feature batch shape: torch.Size([50, 3, 256, 256])
+Labels batch shape: 50
+Label_tokenized: tensor([[    1,     3,    63,  ...,     0,     0,     0],
+        [    1,  3312,  3442,  ...,     0,     0,     0],
+        [    1,   882,   881,  ...,    11,   234,  2096],
+        ...,
+        [    1,  1130,  9889,  ..., 15588,     5, 15020],
+        [    1,     3,   839,  ...,    30,     7,   893],
+        [    1,   276,  1697,  ...,    81,   106,   107]])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1, Batch: 48, Loss: 10.009893417358398: 100%|██████████| 48/48 [03:19<00:00,  4.16s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2, Batch: 48, Loss: 10.009625434875488: 100%|██████████| 48/48 [03:20<00:00,  4.17s/it]
+Batch: 0, Loss: 10.010812759399414
+Batch: 1, Loss: 10.010234832763672
+Batch: 2, Loss: 10.010701179504395
+Batch: 3, Loss: 10.0101318359375
+Batch: 4, Loss: 10.007974624633789
+Batch: 5, Loss: 10.008369445800781
+Batch: 6, Loss: 10.010052680969238
+Batch: 7, Loss: 10.007389068603516
+Batch: 8, Loss: 10.012212753295898
+Batch: 9, Loss: 10.010672569274902
+Batch: 10, Loss: 10.009170532226562
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Batch: 11, Loss: 10.010448455810547
+Predicted: Far
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).

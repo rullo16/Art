@@ -1,0 +1,47 @@
+No such comm: b8ccbae3f07b42b1af0aa6dbf8088129
+No such comm: 5ecf58c34c1545ea82ce225bb0975984
+No such comm: 2f347c143d45442bbf51fb7a87cc71e4
+No such comm: abe27e86f2aa4079b1d2e17148208591
+No such comm: 2c937b14167e474a98877f0c03914e98
+No such comm: 43589df8c4bc4ef4b745e5b271a5575b
+No such comm: 543e1c6f8e49424b8e6f5a55358df366
+No such comm: dae621eca3834e38b3e54421f1c62210
+No such comm: 212fd0ba62394db0bada8ef27bcc8657
+No such comm: 35b54a22286c453eabd6627040fb1381
+No such comm: 472f890e5d4e4d62a3813afcd4dad340
+No such comm: e243af17a28e429291fd5ef9b03e4dc2
+No such comm: c3b1b65df0d348be8696a74930db599d
+No such comm: befa59d05810447f9ea16a728b997002
+No such comm: 65a7c4e0070f43b3a93afbb83b55ac8a
+No such comm: 69916016e0fe46dd98a1123dd86d6594
+  4%|▍         | 134/3000 [00:01<00:31, 92.03it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 3000/3000 [00:36<00:00, 82.77it/s]
+  1%|          | 3308/400000 [00:00<00:24, 16253.15it/s]
+mean and std before normalize:
+Mean of the image: tensor([0.4685, 0.3801, 0.3472])
+
+
+
+
+
+
+
+
+100%|█████████▉| 399999/400000 [00:16<00:00, 24490.63it/s]

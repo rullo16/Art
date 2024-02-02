@@ -1,0 +1,56 @@
+No such comm: 599b77dfa0514c04b52fa503df71498c
+No such comm: c6c15dd06b7a44f7b595c23e2a239b6f
+No such comm: 323f58699f3b40179a1a8a2aeb848d08
+No such comm: ab225b4f207f4ceba445499071ae0497
+No such comm: f504c3f10ae64b589b6fce7d1da4e215
+No such comm: 4dc05ffcb9be4442a39f7aa7ec5c5d33
+No such comm: a494a36d79a442459e709cf225a0aebf
+No such comm: e434e0df992442f29185bb85a74c085a
+No such comm: 3140ff40f56f4e51bb7bbfd024a2d850
+No such comm: 0ad7c993f832429c9a20ce82e0c62e7d
+No such comm: f3bcae5f3560488d8f3f8cadb03adfcd
+No such comm: 97f77cfb2d9d40e7a9571457297dab12
+No such comm: b8d1657e037c4f5a8292abd75e8d3514
+No such comm: cc412c4b6d8545f29e612f160fcf2293
+No such comm: 5a3198119fee460391ca62757900a2a7
+No such comm: 475e39ab91d44f95be176766d224a2ac
+  4%|▍         | 126/3000 [00:01<00:30, 93.33it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 3000/3000 [00:35<00:00, 83.34it/s]
+mean and std before normalize:
+Mean of the image: tensor([0.4685, 0.3801, 0.3472])
+Std of the image: tensor([0.2129, 0.1872, 0.1589])
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Feature batch shape: torch.Size([50, 3, 256, 256])
+Labels batch shape: 50
+Label: tensor([[   3,    4,    5,  ...,   42,   43,   44],
+        [   8,   70,    7,  ...,   12,  100,   31],
+        [ 177,  178,  179,  ...,  205,  206,  207],
+        ...,
+        [1613, 1614,   82,  ...,    0,    0,    0],
+        [1634,   82,    8,  ...,  277,   31,    8],
+        [ 501,    7, 1662,  ...,    7,   73, 1680]])
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+  0%|          | 0/48 [00:00<?, ?it/s]
+
+

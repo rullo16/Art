@@ -1,0 +1,22 @@
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+  0%|          | 0/48 [00:00<?, ?it/s]
+  0%|          | 0/48 [00:03<?, ?it/s]
+No such comm: 709cf118a5354c7d9dd6afa330999c43
+No such comm: 710bebae19964ec2bddba47a49a04a90
+No such comm: 6ace4d7da78f4bd5bbde145bd0699496
+No such comm: b65648c0714d4cafbd3a7ccc2dc9b9ec
+No such comm: 01247259e06a4364b9c1ce3f37278756
+No such comm: 9e94ff5817dc4b82a14e22acbdb15dc3
+No such comm: a5eea68f03ed434089e1e5a87d8090fd
+No such comm: bad732bbd14d4593886d282d752ad928
+No such comm: a5b0c69e6eb4400d9aa749973c9278c4
+No such comm: 75769b1d3588415a8046558b977d1e07
+No such comm: c41e9bf8897e4dcd99e10cf488c25fc2
+No such comm: faecbc4b2d8f4c089d31e15c9a9374d7
+No such comm: cac0d4cf5d2c42a68bbaa3830cea5f95
+No such comm: dd08d809ddaa4df487af847b219304a0
+No such comm: 65fd593125254487ac537367558d40d0
+No such comm: 3dd690e9d6514df38239b097bf1b3413

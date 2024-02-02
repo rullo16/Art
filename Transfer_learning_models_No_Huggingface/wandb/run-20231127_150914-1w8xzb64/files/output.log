@@ -1,0 +1,91 @@
+No such comm: de69b14c5d53440b84db85dafe14b386
+No such comm: 10a291cbcd4546888d481fc6d47e8ccf
+No such comm: 2d423dfb2ba14531bf077713b9baadbc
+No such comm: c6a52ef0f42b4b4b933013e40e128099
+No such comm: a613a0ea85a24e6f8f9de5b3a6d43b86
+No such comm: cd057d4aeec74b089a19deb5d1bf94f9
+No such comm: 3c13d14b696c49779bc1d49641f5fc73
+No such comm: e6a1982a6416451588370e8c0eecd44e
+No such comm: 4f5a948d4fba435295b9a85856446e06
+No such comm: 01d885044eb2485f88c8a0fb4dc3ad75
+No such comm: c05723f436224af8ac7e7e3e5b5c28f5
+No such comm: f407434a89d944b7958efcbfaad42184
+No such comm: f42c9a4741074076b7c16fd550facca4
+No such comm: 001a51205b1e4e149a3c41b56ec9d690
+No such comm: 7b2c62ad256c47709fd6f0328d6c855b
+No such comm: 563078c27cb549c187232cc173e46aa3
+  4%|▍         | 114/3000 [00:01<00:30, 93.79it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 3000/3000 [00:35<00:00, 84.74it/s]
+mean and std before normalize:
+Mean of the image: tensor([0.4685, 0.3801, 0.3472])
+Std of the image: tensor([0.2129, 0.1872, 0.1589])
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Feature batch shape: torch.Size([50, 3, 256, 256])
+Labels batch shape: 50
+Label: tensor([[  3,   4,   5,  ...,  18,  18,  18],
+        [ 15,  19,  20,  ...,  50,  51,  23],
+        [ 15,  52,  53,  ...,  22,  60,  80],
+        ...,
+        [ 15, 798,  22,  ...,  18,  18,  18],
+        [381, 813,  11,  ...,  18,  18,  18],
+        [820, 821,   3,  ...,  18,  18,  18]])
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+
+  0%|          | 0/48 [00:08<?, ?it/s]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+  0%|          | 0/48 [00:00<?, ?it/s]
+torch.Size([50, 50, 400000])
+
+  0%|          | 0/48 [00:11<?, ?it/s]
+
+  0%|          | 0/48 [00:06<?, ?it/s]
+torch.Size([50, 50, 400000])
+torch.Size([50, 50])
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+  0%|          | 0/48 [00:00<?, ?it/s]
+torch.Size([50, 50, 400000])
+
+  0%|          | 0/48 [00:08<?, ?it/s]
+  0%|          | 0/48 [00:00<?, ?it/s]
+torch.Size([50, 50, 400000])
+
+  0%|          | 0/48 [00:06<?, ?it/s]
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+  0%|          | 0/48 [00:00<?, ?it/s]
+torch.Size([50, 50, 400000])
+
+  0%|          | 0/48 [00:06<?, ?it/s]
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+
+  0%|          | 0/48 [00:06<?, ?it/s]
+torch.Size([50, 50, 400000])

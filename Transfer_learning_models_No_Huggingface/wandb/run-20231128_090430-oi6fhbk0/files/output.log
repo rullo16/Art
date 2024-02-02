@@ -1,0 +1,403 @@
+No such comm: c1fbc7d83d7f433c93d2199f6e2e5909
+No such comm: 366af9becb354365bacc59be41855f4a
+No such comm: fa3229b792bf4dc49955e13438687bc4
+No such comm: 761bd546dc3843bd91d313964b50b932
+No such comm: e5e6411fcb9e4f15880ab29cb445732e
+No such comm: f58715217b29428e88086f96dbe372e7
+No such comm: 78eb20c9c3d343a892528293c790920a
+No such comm: 1d668f186067424b8b1d19d2bc34ac8f
+No such comm: 43d8fc13c70e4402932688f1dc1274f1
+No such comm: 7ead7b2252174ff9bbb3f0a07c011b0f
+No such comm: f4fd6f03ebc948e783223333beac2cc4
+No such comm: c79eb976ceba4f30aa0b8f84651fe7ce
+No such comm: 15f3dcff48ad4cac810b8119988f7bae
+No such comm: 70dd051d235040d98ffbab8d5c81a079
+No such comm: 7bc0c931c6e148c6aa5a3f6956b6fabe
+No such comm: ead3667bb9e547e5a0888fb78a31ba15
+  5%|▍         | 144/3000 [00:01<00:29, 96.82it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████▉| 2972/3000 [00:33<00:00, 86.73it/s]
+mean and std before normalize:
+Mean of the image: tensor([0.4685, 0.3801, 0.3472])
+Std of the image: tensor([0.2129, 0.1872, 0.1589])
+Feature batch shape: torch.Size([50, 3, 256, 256])
+Labels batch shape: 50
+Label: tensor([[  3,   4,   5,  ...,  39,  40,  16],
+        [  3,  41,  42,  ...,  58,  58,  58],
+        [  3,  59,  60,  ...,  58,  58,  58],
+        ...,
+        [897, 898,  62,  ..., 264, 917,  26],
+        [918, 919, 124,  ..., 271,   3, 931],
+100%|██████████| 3000/3000 [00:33<00:00, 88.68it/s]
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1, Batch: 48, Loss: 43.208648681640625: 100%|██████████| 48/48 [05:24<00:00,  6.75s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2, Batch: 48, Loss: 43.90192413330078: 100%|██████████| 48/48 [05:20<00:00,  6.69s/it]
+Batch: 0, Loss: 40.11799621582031
+Batch: 1, Loss: 39.645225524902344
+Batch: 2, Loss: 40.27061462402344
+Batch: 3, Loss: 38.888092041015625
+Batch: 4, Loss: 38.722930908203125
+Batch: 5, Loss: 39.025569915771484
+Batch: 6, Loss: 44.67368698120117
+Batch: 7, Loss: 39.90135955810547
+Batch: 8, Loss: 46.7332878112793
+Batch: 9, Loss: 43.028011322021484
+Batch: 10, Loss: 43.63666534423828
+Batch: 11, Loss: 39.009559631347656
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1, Batch: 48, Loss: 42.4773063659668: 100%|██████████| 48/48 [05:23<00:00,  6.75s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2, Batch: 48, Loss: 41.18024826049805: 100%|██████████| 48/48 [05:21<00:00,  6.69s/it]
+Batch: 0, Loss: 39.43965148925781
+Batch: 1, Loss: 42.54100036621094
+Batch: 2, Loss: 42.96693801879883
+Batch: 3, Loss: 42.439735412597656
+Batch: 4, Loss: 40.92573165893555
+Batch: 5, Loss: 40.01350402832031
+Batch: 6, Loss: 44.23197937011719
+Batch: 7, Loss: 40.088890075683594
+Batch: 8, Loss: 40.342552185058594
+Batch: 9, Loss: 42.191219329833984
+Batch: 10, Loss: 41.07074737548828
+Batch: 11, Loss: 44.42768096923828
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+{"ArtDataset": "type", "Attention": "type", "DataLoader": "type", "Decoder": "type", "Encoder": "type", "F": "module", "Image": "module", "Vocabulary": "type", "alpha_c": "float", "attention_dim": "int", "batch_size": "int", "checkpoint": "NoneType", "convert_to_words": "function", "criterion": "CrossEntropyLoss", "decoder": "Decoder", "decoder_dim": "int", "decoder_lr": "float", "decoder_optimizer": "Adam", "device": "device", "display_image_caption": "function", "display_image_caption_actual": "function", "dropout": "float", "embed_dim": "int", "encoder": "Encoder", "encoder_lr": "float", "encoder_optimizer": "NoneType", "epoch": "int", "epochs": "int", "evaluate": "function", "features": "Tensor", "fine_tune_encoder": "bool", "img": "Tensor", "img_test_transform": "Compose", "img_tr": "list", "img_train_transform": "Compose", "label": "Tensor", "labels": "Tensor", "mean": "Tensor", "nltk": "module", "nn": "module", "np": "module", "optim": "module", "pd": "module", "plt": "module", "pre_trained_vocab": "GloVe", "predict": "function", "random_split": "function", "std": "Tensor", "testloader": "DataLoader", "torch": "module", "torchtext": "module", "torchvision": "module", "tqdm": "type", "train": "function", "train_dataset": "ArtDataset", "train_loss": "list", "train_test_split": "function", "trainloader": "DataLoader", "transform": "Compose", "transforms": "module", "val_dataset": "ArtDataset", "vocab": "Vocabulary", "wandb": "module", "word_tokenize": "function"}
+{"ArtDataset": "type", "Attention": "type", "DataLoader": "type", "Decoder": "type", "Encoder": "type", "F": "module", "Image": "module", "Vocabulary": "type", "alpha_c": "float", "attention_dim": "int", "batch_size": "int", "checkpoint": "NoneType", "convert_to_words": "function", "criterion": "CrossEntropyLoss", "decoder": "Decoder", "decoder_dim": "int", "decoder_lr": "float", "decoder_optimizer": "Adam", "device": "device", "display_image_caption": "function", "display_image_caption_actual": "function", "dropout": "float", "embed_dim": "int", "encoder": "Encoder", "encoder_lr": "float", "encoder_optimizer": "NoneType", "epoch": "int", "epochs": "int", "evaluate": "function", "features": "Tensor", "fine_tune_encoder": "bool", "img": "Tensor", "img_test_transform": "Compose", "img_tr": "list", "img_train_transform": "Compose", "label": "Tensor", "labels": "Tensor", "mean": "Tensor", "nltk": "module", "nn": "module", "np": "module", "optim": "module", "pd": "module", "plt": "module", "pre_trained_vocab": "GloVe", "predict": "function", "random_split": "function", "std": "Tensor", "testloader": "DataLoader", "torch": "module", "torchtext": "module", "torchvision": "module", "tqdm": "type", "train": "function", "train_dataset": "ArtDataset", "train_loss": "list", "train_test_split": "function", "trainloader": "DataLoader", "transform": "Compose", "transforms": "module", "val_dataset": "ArtDataset", "vocab": "Vocabulary", "wandb": "module", "word_tokenize": "function"}
+{"shape": "(50, 3, 256, 256)", "count": 50, "type": "Tensor"}
+{"shape": "(50, 3, 256, 256)", "count": 50, "type": "Tensor"}
+{"shape": "(50, 50)", "count": 50, "type": "Tensor"}
+{"shape": "(50, 50)", "count": 50, "type": "Tensor"}
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1, Batch: 48, Loss: 44.574073791503906: 100%|██████████| 48/48 [05:24<00:00,  6.76s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2, Batch: 48, Loss: 39.059486389160156: 100%|██████████| 48/48 [05:24<00:00,  6.77s/it]
+Batch: 0, Loss: 42.525108337402344
+Batch: 1, Loss: 41.95726013183594
+Batch: 2, Loss: 45.29262161254883
+Batch: 3, Loss: 41.86593246459961
+Batch: 4, Loss: 44.684146881103516
+Batch: 5, Loss: 45.47136306762695
+Batch: 6, Loss: 44.072174072265625
+Batch: 7, Loss: 43.946041107177734
+Batch: 8, Loss: 43.124141693115234
+Batch: 9, Loss: 39.95457077026367
+Batch: 10, Loss: 36.70801544189453
+Batch: 11, Loss: 36.80770492553711
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).

@@ -1,0 +1,206 @@
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1, Batch: 48, Loss: 39.93000411987305: 100%|██████████| 48/48 [07:10<00:00,  8.97s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2, Batch: 48, Loss: 39.01008605957031: 100%|██████████| 48/48 [07:04<00:00,  8.84s/it]
+No such comm: 73ab890b8996424b95a740c79c3fb399
+No such comm: ef7f935e12cc4f6d87f2e5a85ba16f16
+No such comm: 60224d864e0c4b9687cf70d1d2534f30
+No such comm: 617b028b2fb84bbb9f5b5a102fbfa2c0
+No such comm: f2b495d12a564bdea484be334e7d644a
+No such comm: 575b033c5eb9447483fe7dc85e1ce8d2
+No such comm: 0c12a36324ac40d1b8f6c73a6ebd564e
+No such comm: fc98ceef4d0e4492a124391ebebb8193
+No such comm: f694035f57b641eeaf2b34a772ac6a0a
+No such comm: 59d29cac67ad4044a10d2bc81f7bfdae
+No such comm: 3e03096e8fc344a1aa54c6aa9c2b1795
+No such comm: f6860c0bc1fb4260b5b86c5e52e4746d
+No such comm: b7c26555bfb34403b0fdb480655857c6
+No such comm: f859e55ace804fc88a9a5420ddff180e
+No such comm: 3a3806468f8a4f1fafb43a830edd6305
+No such comm: c0fb3d7a6dea42699db05cb91694e74d
+Batch: 0, Loss: 42.768798828125
+Batch: 1, Loss: 42.389652252197266
+Batch: 2, Loss: 44.17837905883789
+Batch: 3, Loss: 43.102725982666016
+Batch: 4, Loss: 37.30120849609375
+Batch: 5, Loss: 42.64301300048828
+Batch: 6, Loss: 35.998897552490234
+Batch: 7, Loss: 43.400001525878906
+Batch: 8, Loss: 45.02312469482422
+Batch: 9, Loss: 39.44309616088867
+Batch: 10, Loss: 38.16523361206055
+Batch: 11, Loss: 40.538578033447266
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+[    1 16248 16249    68    71 16250     5    84  2754   158   715     7
+  1704    43   303    11  9448  2226    71    50    43     7  3415    11
+  4125  5859    28     7  1904    11 16251 16252    19     2     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0]
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+[[    1 16248 16249 ...     0     0     0]
+ [    1   988 12229 ...     0     0     0]
+ [    1 13590   350 ...   109    13     7]
+ ...
+ [    1   282    69 ...   516    19   517]
+ [    1     3  5229 ...     0     0     0]
+ [    1   282    21 ...  2082   871     7]]
+[    1 16248 16249    68    71 16250     5    84  2754   158   715     7
+  1704    43   303    11  9448  2226    71    50    43     7  3415    11
+  4125  5859    28     7  1904    11 16251 16252    19     2     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0]
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+[    1 16248 16249    68    71 16250     5    84  2754   158   715     7
+  1704    43   303    11  9448  2226    71    50    43     7  3415    11
+  4125  5859    28     7  1904    11 16251 16252    19     2     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0]
+1
+16248
+16249
+68
+71
+16250
+5
+84
+2754
+158
+715
+7
+1704
+43
+303
+11
+9448
+2226
+71
+50
+43
+7
+3415
+11
+4125
+5859
+28
+7
+1904
+11
+16251
+16252
+19
+2
+[398860, 398860, 398860, 138495, 380557, 329405, 368969, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151]
+398860
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+[260078, 75762, 178747, 109708, 128949, 272695, 368969, 394387, 104162, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151]
+Label: tensor([    1, 16248, 16249,    68,    71, 16250,     5,    84,  2754,   158,
+          715,     7,  1704,    43,   303,    11,  9448,  2226,    71,    50,
+           43,     7,  3415,    11,  4125,  5859,    28,     7,  1904,    11,
+        16251, 16252,    19,     2,     0,     0,     0,     0,     0,     0,
+            0,     0,     0,     0,     0,     0,     0,     0,     0,     0])
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+[315708, 15778, 256245, 265173, 265173, 173089, 178981, 178981, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151, 152151]

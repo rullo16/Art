@@ -1,0 +1,18 @@
+c:\Users\Fede\anaconda3\envs\tf\lib\site-packages\torch\optim\lr_scheduler.py:136: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+No such comm: 662f6852f0f1409a8d42131d9726148e
+No such comm: b1bca317a8304463929d85464d98d49a
+No such comm: 0939a387cf264f05812d16f0aec15989
+No such comm: 9eb70bb7b3904272a1ff5803e430b5d0
+No such comm: 72610ff6299f4d76b1afb9b836e55532
+No such comm: ff06aafc25cb47c485649ce4867e869d
+No such comm: cc8d3e28051e41f8b0e9bb5cc07eef39
+No such comm: f4caf18b9a4f4b4b82a7d8b442e8f616
+No such comm: d388daed626c4f3083eff55f4b9e4c47
+No such comm: 4a6cee3d21bd46f0bf25bf1227fa3aaf
+No such comm: 30a66d6d8c41481c805419b8bcf8d0c1
+No such comm: 43e66a2365ea43a2bb778eed802b1e35
+No such comm: 73e59e93eca2421baaa4d6fb383bf1fc
+No such comm: d4f0d2d2426f4ed6a1c9b24afc32a23d
+No such comm: 618ca0071f4a4b1c88682f15daa38a23
+No such comm: 7bb1c9d75860466ba4949b2f9bc5179e
