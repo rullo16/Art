@@ -2,6 +2,6 @@ images
 model_checkpoints
 Not_Transfer_learning_models/.vector_cache
 .gitignore
-Not_Transfer_learning_models/wandb
+Transfer_learning_models_No_Huggingface/wandb
 wandb
 
