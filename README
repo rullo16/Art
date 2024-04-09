@@ -1,8 +1,8 @@
-# Art Critic Model
+#Art Critic Model
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## Introduction
+##Introduction
 
 The Art Critic Model project aims to develop a sophisticated computational model capable of analyzing art pieces, particularly paintings, and generating critic-like descriptions of them. Additionally, the model provides the functionality to input a description and select a different artistic style, resulting in the generation of a new image that embodies the chosen style.
 
@@ -14,7 +14,7 @@ The project is implemented using two distinct approaches:
 
 2. Transfer Learning: In this approach, transfer learning techniques are employed with state-of-the-art models such as ResNet and ResNext. By utilizing transfer learning, we can leverage the knowledge and features learned from large-scale datasets to create new models specifically designed for image captioning and classification tasks in the context of art. These models are trained on an extensive collection of art pieces, enabling them to learn the distinctive patterns and characteristics inherent in various artistic styles.
 
-## Table of Contents
+##Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -23,15 +23,15 @@ The project is implemented using two distinct approaches:
 - [License](#license)
 - [Contact](#contact)
 
-## Installation
+##Installation
 
 Instructions on how to install and set up the Art Critic Model project will be provided here.
 
-## Usage
+##Usage
 
 Detailed instructions on how to use the Art Critic Model project will be provided here, including examples and screenshots showcasing its capabilities.
 
-## Features
+##Features
 
 The main features of the Art Critic Model project include:
 
@@ -41,15 +41,15 @@ The main features of the Art Critic Model project include:
 - Utilization of transfer learning techniques with models like ResNet and ResNext for image captioning and classification tasks.
 - Training of specialized models on a comprehensive dataset of art pieces to capture domain-specific patterns and features.
 
-## Contributing
+##Contributing
 
 Guidelines for contributing to the Art Critic Model project, including information on how to submit pull requests and report issues, will be provided here.
 
-## License
+#License
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Contact
+##Contact
 
 For any inquiries or further information, please reach out to:
 
