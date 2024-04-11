@@ -1,10 +1,6 @@
-# Art Critic Model
+# Art Project
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
-## Introduction
-
-The Art Critic Model project aims to develop a sophisticated computational model capable of analyzing art pieces, particularly paintings, and generating critic-like descriptions of them. Additionally, the model provides the functionality to input a description and select a different artistic style, resulting in the generation of a new image that embodies the chosen style.
+This repository contains the Art Critic Model which aims to be a sophisticated computational model capable of analyzing art pieces, particularly paintings, and generating critic-like descriptions of them. Additionally, the model provides the functionality to use the generated description and select a different artistic style, resulting in the generation of a new image that embodies the chosen style.
 
 ## Implementation Approaches
 
@@ -15,48 +11,63 @@ The project is implemented using two distinct approaches:
 2. Transfer Learning: In this approach, transfer learning techniques are employed with state-of-the-art models such as ResNet and ResNext. By utilizing transfer learning, we can leverage the knowledge and features learned from large-scale datasets to create new models specifically designed for image captioning and classification tasks in the context of art. These models are trained on an extensive collection of art pieces, enabling them to learn the distinctive patterns and characteristics inherent in various artistic styles.
 
 ## Table of Contents
-
-- [Installation](#installation)
+- [Introduction](#introduction)
+- [Requirements](#requirements)
 - [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+  - [Execute All Instances](#execute-all-instances)
+  - [Execute a Single Instance](#execute-a-single-instance)
+- [Folder Structure](#folder-structure)
 
-## Installation
+## Introduction
 
-Instructions on how to install and set up the Art Critic Model project will be provided here.
-
-## Usage
-
-Detailed instructions on how to use the Art Critic Model project will be provided here, including examples and screenshots showcasing its capabilities.
+This model uses transferlearning and fine-tuning techniques to generate critic-like descriptions for art pieces, particularly paintings. It also allows users to use the generated descriptions and select different artistic styles to generate new images.
 
 ## Features
 
 The main features of the Art Critic Model project include:
 
 - Generation of critic-like descriptions for art pieces, particularly paintings.
-- Ability to input descriptions and select different artistic styles to generate new images.
+- Ability to use the generated descriptions and select different artistic styles to generate new images.
 - Fine-tuning of pre-trained models for accurate and meaningful description generation.
 - Utilization of transfer learning techniques with models like ResNet and ResNext for image captioning and classification tasks.
 - Training of specialized models on a comprehensive dataset of art pieces to capture domain-specific patterns and features.
 
-## Contributing
+## Requirements
 
-Guidelines for contributing to the Art Critic Model project, including information on how to submit pull requests and report issues, will be provided here.
+Before running the solver, make sure you have the requirements installed on your system:
 
-## License
+```console
+pip install -r requirements.txt
+```
 
-This project is licensed under the [MIT License](LICENSE).
+You can also create a new conda environment by using the env.yml file
+```console
+conda env create -f env.yml
+```
 
-## Contact
+## Usage
 
-For any inquiries or further information, please reach out to:
+To run the project open the "Art_execution" notebook and follow the instructions.
 
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- GitHub: [your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin-profile](https://linkedin.com/in/your-linkedin-profile)
+## Folder Structure
+The folder structure of the project is as follows:
+```csharp
+Art/
+  ├── images/
+  ├── Models_with_Trainer/
+  ├── Transfer_learning_models/
+  ├── Art_execution.ipynb
+  ├── push_to_hub.ipynb
+  ├── Scrap_description.ipynb
+  ├── described_dataset_labels.csv
+  ├── toy_dataset_labels.csv
+  ├── env.yml
+  ├── requirements.txt
+  └── README.md
+```
+* images/: contains all images used to train and fine-tune the models
+* Models_with_Trainer/: contains all the notebook which fine tune the models from huggingface using the Trainer function from the transformer library and checkpoints
+* Transfer_learning_models/: contains all the notebooks whith the models which expands a baseline model with a new head for the art critic task
 
-## Project Structure
+## Dataset Used
 
-The project follows a typical directory structure:
