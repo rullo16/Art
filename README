@@ -22,7 +22,7 @@ The project is implemented using two distinct approaches:
 
 This model uses transferlearning and fine-tuning techniques to generate critic-like descriptions for art pieces, particularly paintings. It also allows users to use the generated descriptions and select different artistic styles to generate new images.
 
-## Features
+##Features
 
 The main features of the Art Critic Model project include:
 
