@@ -20,7 +20,7 @@ The project is implemented using two distinct approaches:
 
 ## Introduction
 
-This model uses transferlearning and fine-tuning techniques to generate critic-like descriptions for art pieces, particularly paintings. It also allows users to use the generated descriptions and select different artistic styles to generate new images.
+This model uses transfer learning and fine-tuning techniques to generate critic-like descriptions for art pieces, particularly paintings. It also allows users to use the generated descriptions and select different artistic styles to generate new images.
 
 ##Features
 
@@ -66,8 +66,10 @@ Art/
   └── README.md
 ```
 * images/: contains all images used to train and fine-tune the models
-* Models_with_Trainer/: contains all the notebook which fine tune the models from huggingface using the Trainer function from the transformer library and checkpoints
-* Transfer_learning_models/: contains all the notebooks whith the models which expands a baseline model with a new head for the art critic task
+* Models_with_Trainer/: contains all the notebooks which fine-tune the models from hugging face using the Trainer function from the transformer library and checkpoints
+* Transfer_learning_models/: contains all the notebooks with the models which expands a baseline model with a new head for the art critic task
 
 ## Dataset Used
+
+
 
