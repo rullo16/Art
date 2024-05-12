@@ -9,7 +9,7 @@ This repository contains the Art Critic Model which aims to be a sophisticated c
 
 The project is implemented using two distinct approaches:
 
-1. Fine-tuning Models: This approach leverages pre-trained models for classification and image-to-text tasks from the Hugging Face library. These models are fine-tuned on a carefully curated dataset of art pieces, enabling them to generate accurate and insightful descriptions. By fine-tuning these models, we ensure that they capture the nuances and intricacies specific to the domain of art criticism.
+1. Fine-tuning Models: This approach leverages pre-trained models for classification and image-to-text tasks from the Hugging Face library. These models are fine-tuned on a carefully curated dataset of art pieces, enabling them to generate accurate and insightful descriptions. By fine-tuning these models, we ensure they capture the nuances and intricacies specific to the domain of art criticism.
 2. Transfer Learning: In this approach, transfer learning techniques are employed with state-of-the-art models such as ResNet and ResNext. By utilizing transfer learning, we can leverage the knowledge and features learned from large-scale datasets to create new models specifically designed for image captioning and classification tasks in the context of art. These models are trained on an extensive collection of art pieces, enabling them to learn the distinctive patterns and characteristics inherent in various artistic styles.
 
 ## Table of Contents
@@ -53,13 +53,13 @@ conda env create -f env.yml
 
 Each folder contains a different part of the project.
 
-The huggingface folder contains notebooks that used to fine-tune Models from huggingface on our dataset.
+The hugging face folder contains notebooks that are used to fine-tune Models from hugging face on our dataset.
 
 The Transferlearning Folder contains notebooks where custom-made Transformer models are created starting from a baseline model.
 
 There you can customize the parameters and train the models.
 
-The Art Execution notebook takes all the checkpoints and feed them an image creating a Critic-like description of it.
+The Art Execution notebook takes all the checkpoints and feeds them an image, creating a Critic-like description.
 
 ## Folder Structure
 
@@ -81,8 +81,8 @@ Art/
 ```
 
 * images/: contains all images used to train and fine-tune the models
-* Models_with_Trainer/: contains all the notebook which fine tune the models from huggingface using the Trainer function from the transformer library and checkpoints
-* Transfer_learning_models/: contains all the notebooks whith the models which expands a baseline model with a new head for the art critic task
+* Models_with_Trainer/: contains all the notebooks which fine tune the models from hugging face using the Trainer function from the transformer library and checkpoints
+* Transfer_learning_models/: contains all the notebooks with the models which expands a baseline model with a new head for the art critic task
 
 ## Dataset Used
 
